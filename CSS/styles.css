@@ -98,7 +98,7 @@ img {
     color: #fff;
     font-size: 1.2rem;
     line-height: 1.25;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
 }
 
 /*tabs*/
@@ -113,7 +113,7 @@ img {
     text-align: center;
     border: none;
     cursor: pointer;
-    margin: 0 auto;
+    margin: 0 0;
     outline: none;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
     border-radius: 5px;
@@ -202,4 +202,8 @@ img {
     color: rgb(251, 251, 251);
     text-decoration: underline;
     font-size: large;
+}
+
+.signup {
+    
 }
