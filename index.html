@@ -36,30 +36,40 @@
                 <div class="pass">
                     <label for="password">password <input id="password" type="password" required/></label>
                 </div>
-                <a href="#" id="forgot-pass">Forgot Password</a>
                 <button class="log-btn" id="signin" type="submit">Log in</button>
+                <a href="#" id="forgot-pass">Forgot Password</a>
+                <div class="moreinfo">
+                    <span>New to Watchmind?</span>
+                    <span>sign up now</span>
+                </div>
             </div>
         </form>
         <button class="back">Back</button>
     </div>
 
-    <div class="signup">
-        <h2>Sign up</h2>
-        <div class="firstname">
-            <label for="firstname">Firstname<input id="firstname" name="firstname" type="text" required/></label>
+    <div class="signup hid">
+        <div class="sign">
+            <h2>Sign up</h2>
+            <div class="firstname">
+                <input id="firstname" name="firstname" type="text" placeholder="First Name"/></label>
+            </div>
+            <div class="lastname">
+                <input id="lastname name="lastname" type="text" placeholder="Last Name" required/></label>
+            </div>
+            <div class="email">
+                <input id="email" name="email" type="email" placeholder="Email" required/></label>
+            </div>    
+            <div class="password">
+                <input id="password" name="password" type="password" placeholder="Password" pattern="[a-z0-5]{8}]" required/></label>
+            </div>
+            <button class="signup-btn" id="signup" type="submit">Sign up</button>
+            <p id="signup">
+                Already have an account?
+                <a href="#"> Sign in here</a>
+            </p>
         </div>
-        <div class="lastname">
-            <label for="lastname">Lastname<input id="lastname name="lastname" type="text" required/></label>
-        </div>
-        <div class="email">
-            <label for="email">Email<input id="email" name="email" type="email" required/></label>
-        </div>    
-        <div class="password">
-            <label for="password">Password<input id="password" name="password" type="password" pattern="[a-z0-5]{8}]" required/></label>
-        </div>
-        <button class="signup-btn" id="signup" type="submit">Sign up</button>
-         
     </div>
+    
 </body>
 <script src="js/main.js"></script>
 
