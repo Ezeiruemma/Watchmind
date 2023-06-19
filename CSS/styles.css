@@ -162,7 +162,7 @@ img {
     transition: all .5s ease-in-out;
 }
 .hide{
-    display: none;
+    display: nne;
 }
 .show{
     display: flex;
@@ -170,24 +170,36 @@ img {
 .login{
     border: solid white 2px;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 70px 20px 100px 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.515);
 }
 
-.user,.pass{
-    padding: 5px;
+.user input, .pass input{
+    background-color: #242121;
+    border: none;
+    padding: 10px;
     color: #fff;
+    height: 42px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
     text-transform: uppercase;
 }
 
 .log-btn{
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 700;
+    height: 40px;
+    width: 100%;
     cursor: pointer;
     background-color: #1409e5;
     color: #fff;
     letter-spacing: 2px;
     border: none;
+    margin: 50px 0px 20px 0px;
 }
 
 .back{
@@ -219,7 +231,7 @@ img {
 }
 
 .hid {
-    display: ;
+    display: none;
 }
 
 .sho {
@@ -265,4 +277,5 @@ img {
     font-size: 17px;
     font-weight: 700;
     margin: 50px 0px 20px 0px;
+    cursor: pointer;
 }
