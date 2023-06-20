@@ -129,7 +129,6 @@ img {
     z-index: 2;
     background-color: #1409e5;
     padding: 10px;
-
 }
 
 .btn-rounded:hover{
@@ -161,12 +160,15 @@ img {
     background-color: #000000bc;
     transition: all .5s ease-in-out;
 }
+
 .hide{
-    display: nne;
+    display: none;
 }
+
 .show{
     display: flex;
 }
+
 .login{
     border: solid white 2px;
     text-align: center;
@@ -199,7 +201,7 @@ img {
     color: #fff;
     letter-spacing: 2px;
     border: none;
-    margin: 50px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .back{
@@ -278,4 +280,18 @@ img {
     font-weight: 700;
     margin: 50px 0px 20px 0px;
     cursor: pointer;
+}
+
+.bac{
+    border: none;
+    background: transparent;
+    color: rgb(223, 223, 229);
+    cursor: pointer;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+}
+.bac:hover{
+    color: rgb(251, 251, 251);
+    text-decoration: underline;
+    font-size: large;
 }
